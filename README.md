@@ -110,4 +110,4 @@ python app.py
 
 ## 🧠 Model Details
 
-The microservice utilizes a saved Keras model (`pneumonia_densenet.keras`). Incoming images are dynamically resized to 224x224 pixels and normalized (rescaled by 1/255.0) to match the exact preprocessing steps used during the `ImageDataGenerator` training phase before being passed to the model for inference. Binary classification logic is applied, with a raw score of `>= 0.5` classifying the image as "PNEUMONIA".
+The microservice utilizes a saved Keras model (`pneumonia_densenet.keras`). Incoming images are dynamically resized to 224x224 pixels and normalized (rescaled by 1/255.0) to match the exact preprocessing steps used during the `ImageDataGenerator` training phase before being passed to the model for inference. Binary classification logic is applied, with a raw score of `>= 0.5` classifying the image as "PNEUMONIA". Dataset used: https://www.kaggle.com/datasets/paulti/chest-xray-images with Usability: 8.13
