@@ -1,17 +1,17 @@
-# Machine Learning & Data Processing
+#Machine Learning and Data Processing
 
 tensorflow==2.15.0
 numpy==1.26.4
 Pillow==10.2.0
 
-# Python Microservice (API)
+#Python Microservice (API)
 
 fastapi==0.110.0
 uvicorn==0.28.0
 pydantic==2.6.3
 requests==2.31.0
 
-# Utilities & Visualization (For Notebook)
+#Utilities and Visualization (for Jupyter Notebook)
 
 split-folders==0.5.1
 matplotlib==3.8.3
